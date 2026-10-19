@@ -1,0 +1,1863 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>10 Từ Vựng Tiếng Anh Truyền Cảm Hứng Cho Phái Đẹp</title>
+  <style>
+    :root {
+      /* Palette: Xanh Bơ Pastel (Mint Green & Avocado Pastel) */
+      --bg-gradient: linear-gradient(135deg, #f0fdf4 0%, #ecfdf5 45%, #f7fee7 100%);
+      --mint-50: #f0fdf4;
+      --mint-100: #dcfce7;
+      --mint-200: #bbf7d0;
+      --mint-300: #86efac;
+      --mint-400: #4ade80;
+      --mint-500: #22c55e;
+      --mint-600: #16a34a;
+      --mint-700: #15803d;
+      --mint-800: #166534;
+      --mint-900: #14532d;
+      --avocado-accent: #65a30d;
+      --avocado-dark: #3f6212;
+      --teal-accent: #0d9488;
+      --text-main: #142e1d;
+      --text-muted: #415949;
+      --card-bg: #ffffff;
+      --shadow-sm: 0 4px 14px rgba(22, 163, 74, 0.08);
+      --shadow-md: 0 10px 25px rgba(21, 128, 61, 0.12);
+      --shadow-lg: 0 20px 42px rgba(21, 128, 61, 0.15);
+      --radius-sm: 12px;
+      --radius-md: 18px;
+      --radius-lg: 26px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg-gradient);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 20px 16px 40px;
+      line-height: 1.6;
+    }
+
+    /* Container */
+    .app-container {
+      width: 100%;
+      max-width: 840px;
+      margin: 0 auto;
+    }
+
+    /* Header */
+    header {
+      text-align: center;
+      margin-bottom: 24px;
+      padding: 10px 0;
+    }
+
+    .badge-class {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: linear-gradient(135deg, #dcfce7 0%, #ecfdf5 100%);
+      color: var(--mint-800);
+      font-size: 14px;
+      font-weight: 700;
+      padding: 7px 18px;
+      border-radius: 50px;
+      border: 1px solid rgba(22, 163, 74, 0.25);
+      margin-bottom: 12px;
+      box-shadow: var(--shadow-sm);
+    }
+
+    h1 {
+      font-size: clamp(25px, 4.8vw, 34px);
+      font-weight: 800;
+      background: linear-gradient(135deg, #15803d 0%, #0d9488 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 8px;
+      letter-spacing: -0.5px;
+    }
+
+    .subtitle {
+      font-size: clamp(15px, 2.8vw, 17px);
+      color: var(--text-muted);
+      font-weight: 500;
+    }
+
+    /* Tabs Navigation */
+    .tab-bar {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(12px);
+      padding: 6px;
+      border-radius: 50px;
+      border: 1px solid rgba(22, 163, 74, 0.2);
+      box-shadow: var(--shadow-sm);
+      margin-bottom: 24px;
+      overflow-x: auto;
+      max-width: 100%;
+    }
+
+    .tab-btn {
+      border: none;
+      background: transparent;
+      padding: 10px 18px;
+      border-radius: 40px;
+      font-size: 15px;
+      font-weight: 600;
+      color: var(--text-muted);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.25s ease;
+      white-space: nowrap;
+    }
+
+    .tab-btn.active {
+      background: linear-gradient(135deg, #16a34a 0%, #0d9488 100%);
+      color: #fff;
+      box-shadow: 0 4px 15px rgba(22, 163, 74, 0.35);
+    }
+
+    .tab-btn:hover:not(.active) {
+      background: rgba(187, 247, 208, 0.5);
+      color: var(--mint-900);
+    }
+
+    /* Speed Control Bar */
+    .speed-control-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      background: #ffffff;
+      padding: 10px 18px;
+      border-radius: var(--radius-sm);
+      margin-bottom: 18px;
+      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--mint-200);
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+
+    .speed-pills {
+      display: flex;
+      gap: 6px;
+    }
+
+    .speed-pill {
+      border: 1px solid var(--mint-300);
+      background: var(--mint-50);
+      color: var(--mint-800);
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .speed-pill.active {
+      background: var(--mint-700);
+      color: #fff;
+      border-color: var(--mint-700);
+    }
+
+    /* Content Sections */
+    .tab-content {
+      display: none;
+      width: 100%;
+    }
+
+    .tab-content.active {
+      display: block;
+      animation: fadeIn 0.35s ease;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(8px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ========================================================
+       SECTION 1: 3D FLASHCARD
+       ======================================================== */
+    .flashcard-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Progress Info */
+    .progress-box {
+      width: 100%;
+      margin-bottom: 16px;
+    }
+
+    .progress-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 8px;
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--mint-800);
+    }
+
+    .progress-bar-bg {
+      width: 100%;
+      height: 10px;
+      background: #dcfce7;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .progress-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #22c55e 0%, #0d9488 100%);
+      width: 10%;
+      border-radius: 10px;
+      transition: width 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    /* 3D Card Scene (chiều cao tối ưu cho chữ lớn hơn) */
+    .card-scene {
+      width: 100%;
+      max-width: 540px;
+      height: 420px;
+      perspective: 1200px;
+      margin: 12px 0 20px;
+      cursor: pointer;
+    }
+
+    .card-3d {
+      width: 100%;
+      height: 100%;
+      position: relative;
+      transform-style: preserve-3d;
+      transition: transform 0.65s cubic-bezier(0.4, 0.2, 0.2, 1);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-lg);
+    }
+
+    .card-3d.is-flipped {
+      transform: rotateY(180deg);
+    }
+
+    .card-face {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      backface-visibility: hidden;
+      border-radius: var(--radius-lg);
+      padding: 26px 24px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      text-align: center;
+      background: var(--card-bg);
+      border: 2px solid rgba(187, 247, 208, 0.8);
+    }
+
+    /* Card Front */
+    .card-front {
+      background: linear-gradient(165deg, #ffffff 0%, #f4fbf6 55%, #f7fee7 100%);
+    }
+
+    .card-type-tag {
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.8px;
+      padding: 5px 16px;
+      border-radius: 30px;
+      background: var(--mint-100);
+      color: var(--mint-800);
+      border: 1px solid var(--mint-200);
+    }
+
+    .card-word-group {
+      margin: 8px 0;
+    }
+
+    .word-text {
+      font-size: clamp(36px, 7.5vw, 46px);
+      font-weight: 800;
+      color: var(--text-main);
+      letter-spacing: -0.5px;
+      line-height: 1.15;
+      margin-bottom: 10px;
+    }
+
+    /* Phóng to IPA mặt trước thêm 20%: 20px -> 24px */
+    .word-ipa {
+      font-family: "Lucida Sans Unicode", "Segoe UI", Arial, sans-serif;
+      font-size: 24px;
+      color: var(--mint-800);
+      font-weight: 700;
+      background: #eafaf0;
+      padding: 6px 18px;
+      border-radius: 25px;
+      display: inline-block;
+      margin-bottom: 16px;
+      border: 1.5px dashed var(--mint-400);
+      letter-spacing: 0.5px;
+    }
+
+    .audio-btn-large {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: linear-gradient(135deg, #16a34a 0%, #15803d 100%);
+      color: #fff;
+      border: none;
+      padding: 13px 26px;
+      border-radius: 50px;
+      font-size: 16px;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 0 6px 18px rgba(22, 163, 74, 0.35);
+      transition: all 0.2s ease;
+    }
+
+    .audio-btn-large:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 22px rgba(22, 163, 74, 0.45);
+    }
+
+    .audio-btn-large:active {
+      transform: scale(0.97);
+    }
+
+    .flip-hint {
+      font-size: 13px;
+      color: var(--text-muted);
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-weight: 500;
+    }
+
+    /* Card Back */
+    .card-back {
+      transform: rotateY(180deg);
+      background: linear-gradient(165deg, #ffffff 0%, #f0fdf4 60%, #ecfdf5 100%);
+      border-color: rgba(167, 243, 208, 0.9);
+      justify-content: flex-start;
+      gap: 12px;
+      overflow-y: auto;
+    }
+
+    .back-header {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1.5px solid var(--mint-200);
+      padding-bottom: 8px;
+    }
+
+    .back-word-title {
+      font-size: 22px;
+      font-weight: 800;
+      color: var(--mint-900);
+    }
+
+    /* Phóng to IPA tiêu đề mặt sau thêm 20%: 13px -> 16px */
+    .back-header .card-type-tag {
+      font-size: 16px;
+      font-family: "Lucida Sans Unicode", "Segoe UI", Arial, sans-serif;
+    }
+
+    .meaning-box {
+      background: linear-gradient(135deg, #f0fdf4 0%, #f7fee7 100%);
+      padding: 14px 18px;
+      border-radius: var(--radius-sm);
+      border-left: 5px solid var(--mint-500);
+      width: 100%;
+      text-align: left;
+      box-shadow: 0 2px 8px rgba(22, 163, 74, 0.05);
+    }
+
+    .meaning-label {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--mint-700);
+      margin-bottom: 4px;
+      letter-spacing: 0.5px;
+    }
+
+    /* Phóng to nghĩa tiếng Việt mặt sau thêm 20%: 17px -> 21px */
+    .meaning-text {
+      font-size: 21px;
+      font-weight: 800;
+      color: var(--mint-900);
+      line-height: 1.4;
+    }
+
+    .example-box {
+      background: #ffffff;
+      padding: 14px 18px;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--mint-200);
+      width: 100%;
+      text-align: left;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .example-top {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 6px;
+    }
+
+    .example-label {
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: var(--mint-700);
+    }
+
+    .listen-example-btn {
+      background: var(--mint-100);
+      border: 1px solid var(--mint-200);
+      color: var(--mint-800);
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      transition: background 0.2s;
+    }
+
+    .listen-example-btn:hover {
+      background: var(--mint-200);
+    }
+
+    .example-en {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 4px;
+      line-height: 1.4;
+    }
+
+    /* Phóng to IPA câu ví dụ thêm 20%: 13px -> 16px */
+    .example-ipa {
+      font-size: 16px;
+      color: var(--mint-700);
+      font-family: "Lucida Sans Unicode", "Segoe UI", Arial, sans-serif;
+      margin-bottom: 6px;
+      line-height: 1.35;
+      font-weight: 500;
+    }
+
+    /* Phóng to bản dịch tiếng Việt câu ví dụ thêm 20%: 15px -> 18px */
+    .example-vi {
+      font-size: 18px;
+      color: #1f3d26;
+      font-style: italic;
+      line-height: 1.45;
+      font-weight: 500;
+    }
+
+    /* Card Controls */
+    .card-controls {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      width: 100%;
+      max-width: 540px;
+      margin-top: 4px;
+    }
+
+    .nav-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: #ffffff;
+      color: var(--text-main);
+      border: 1px solid var(--mint-300);
+      padding: 12px 20px;
+      border-radius: 50px;
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      box-shadow: var(--shadow-sm);
+      transition: all 0.2s;
+      flex: 1;
+      justify-content: center;
+    }
+
+    .nav-btn:hover:not(:disabled) {
+      background: var(--mint-50);
+      border-color: var(--mint-500);
+      color: var(--mint-800);
+      transform: translateY(-1px);
+    }
+
+    .nav-btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+    }
+
+    .flip-btn-main {
+      background: linear-gradient(135deg, #16a34a 0%, #0d9488 100%);
+      color: #fff;
+      border: none;
+      padding: 12px 22px;
+      border-radius: 50px;
+      font-size: 15px;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 0 4px 15px rgba(22, 163, 74, 0.35);
+      transition: all 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      flex: 1.2;
+      justify-content: center;
+    }
+
+    .flip-btn-main:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 18px rgba(22, 163, 74, 0.45);
+    }
+
+    /* Dot Indicators */
+    .dots-row {
+      display: flex;
+      gap: 6px;
+      margin-top: 18px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .dot {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: #ffffff;
+      border: 1px solid var(--mint-300);
+      color: var(--text-muted);
+      font-size: 13px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .dot.active {
+      background: var(--mint-600);
+      color: #fff;
+      border-color: var(--mint-600);
+      transform: scale(1.1);
+      box-shadow: 0 3px 10px rgba(22, 163, 74, 0.4);
+    }
+
+    /* ========================================================
+       SECTION 2: CONVERSATION (CHAT BUBBLE)
+       ======================================================== */
+    .dialogue-wrapper {
+      background: #ffffff;
+      border-radius: var(--radius-lg);
+      padding: 24px 20px;
+      box-shadow: var(--shadow-md);
+      border: 1px solid var(--mint-200);
+    }
+
+    .dialogue-intro {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 20px;
+      padding-bottom: 14px;
+      border-bottom: 1px solid var(--mint-100);
+    }
+
+    .dialogue-title-group h2 {
+      font-size: 21px;
+      color: var(--mint-900);
+      font-weight: 700;
+    }
+
+    .dialogue-title-group p {
+      font-size: 14px;
+      color: var(--text-muted);
+    }
+
+    .play-all-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: linear-gradient(135deg, #16a34a 0%, #0d9488 100%);
+      color: #fff;
+      border: none;
+      padding: 9px 18px;
+      border-radius: 30px;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: var(--shadow-sm);
+      transition: all 0.2s;
+    }
+
+    .play-all-btn:hover {
+      opacity: 0.95;
+      transform: translateY(-1px);
+    }
+
+    .chat-container {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .chat-bubble-row {
+      display: flex;
+      gap: 12px;
+      max-width: 90%;
+      transition: all 0.3s;
+    }
+
+    .chat-bubble-row.lan {
+      align-self: flex-start;
+    }
+
+    .chat-bubble-row.huyen {
+      align-self: flex-end;
+      flex-direction: row-reverse;
+    }
+
+    .avatar {
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      flex-shrink: 0;
+      box-shadow: var(--shadow-sm);
+    }
+
+    .avatar.lan {
+      background: linear-gradient(135deg, #dcfce7 0%, #bbf7d0 100%);
+      border: 2px solid #86efac;
+    }
+
+    .avatar.huyen {
+      background: linear-gradient(135deg, #ecfdf5 0%, #d1fae5 100%);
+      border: 2px solid #6ee7b7;
+    }
+
+    .bubble-wrapper {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .chat-bubble-row.huyen .bubble-wrapper {
+      align-items: flex-end;
+    }
+
+    .sender-name {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--text-muted);
+      margin-bottom: 4px;
+      padding: 0 4px;
+    }
+
+    .chat-bubble {
+      padding: 16px 18px;
+      border-radius: 20px;
+      position: relative;
+      font-size: 15px;
+      box-shadow: var(--shadow-sm);
+      line-height: 1.5;
+    }
+
+    .chat-bubble-row.lan .chat-bubble {
+      background: #f7fdf9;
+      border: 1px solid var(--mint-200);
+      border-top-left-radius: 4px;
+      color: #142e1d;
+    }
+
+    .chat-bubble-row.huyen .chat-bubble {
+      background: #f0fdf4;
+      border: 1.5px solid #a7f3d0;
+      border-top-right-radius: 4px;
+      color: #142e1d;
+    }
+
+    .bubble-en {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--text-main);
+      margin-bottom: 6px;
+    }
+
+    .highlight-word {
+      background: linear-gradient(120deg, #bbf7d0 0%, #dcfce7 100%);
+      color: #14532d;
+      padding: 2px 7px;
+      border-radius: 6px;
+      font-weight: 700;
+    }
+
+    /* Phóng to IPA trong hội thoại thêm 20%: 13px -> 16px */
+    .bubble-ipa {
+      font-size: 16px;
+      color: var(--mint-700);
+      font-family: "Lucida Sans Unicode", "Segoe UI", Arial, sans-serif;
+      margin-bottom: 6px;
+      font-weight: 500;
+    }
+
+    /* Phóng to nghĩa tiếng Việt trong hội thoại thêm 20%: 14px -> 17px */
+    .bubble-vi {
+      font-size: 17px;
+      color: #1e3a25;
+      border-top: 1px dashed rgba(22, 163, 74, 0.2);
+      padding-top: 6px;
+      margin-top: 6px;
+      line-height: 1.45;
+    }
+
+    .bubble-action {
+      margin-top: 8px;
+      display: flex;
+      gap: 8px;
+    }
+
+    .mini-speaker-btn {
+      background: #ffffff;
+      border: 1px solid var(--mint-300);
+      color: var(--mint-800);
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 12px;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 5px;
+      transition: all 0.2s;
+    }
+
+    .mini-speaker-btn:hover {
+      background: var(--mint-100);
+      border-color: var(--mint-500);
+    }
+
+    .chat-bubble-row.active-speaking .chat-bubble {
+      border: 2px solid var(--mint-500);
+      animation: pulseGlowMint 1.5s infinite;
+    }
+
+    @keyframes pulseGlowMint {
+      0% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.4); }
+      70% { box-shadow: 0 0 0 10px rgba(34, 197, 94, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+    }
+
+    /* ========================================================
+       SECTION 3: VOCABULARY LIST
+       ======================================================== */
+    .list-wrapper {
+      background: #ffffff;
+      border-radius: var(--radius-lg);
+      padding: 24px;
+      box-shadow: var(--shadow-md);
+      border: 1px solid var(--mint-200);
+    }
+
+    .list-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 16px;
+    }
+
+    .vocab-card {
+      background: linear-gradient(165deg, #fafffc 0%, #f4fbf6 100%);
+      border: 1px solid var(--mint-200);
+      border-radius: var(--radius-md);
+      padding: 16px 18px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.2s;
+    }
+
+    .vocab-card:hover {
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-sm);
+      border-color: var(--mint-400);
+    }
+
+    .vocab-card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 8px;
+    }
+
+    .vocab-num {
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      background: var(--mint-100);
+      color: var(--mint-800);
+      font-size: 12px;
+      font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .vocab-main-word {
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--text-main);
+    }
+
+    .vocab-part-speech {
+      font-size: 13px;
+      color: var(--mint-700);
+      font-weight: 600;
+      margin-left: 4px;
+    }
+
+    /* Phóng to IPA trong danh sách tra cứu thêm 20%: 13px -> 16px */
+    .vocab-ipa-tag {
+      font-size: 16px;
+      color: var(--mint-700);
+      font-family: "Lucida Sans Unicode", "Segoe UI", Arial, sans-serif;
+      margin-bottom: 8px;
+      display: inline-block;
+      font-weight: 600;
+    }
+
+    /* Phóng to nghĩa tiếng Việt trong danh sách tra cứu thêm 20%: 14px -> 17px */
+    .vocab-meaning {
+      font-size: 17px;
+      color: var(--mint-900);
+      font-weight: 700;
+      margin-bottom: 10px;
+      line-height: 1.45;
+    }
+
+    .vocab-card-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 10px;
+      border-top: 1px dashed var(--mint-200);
+    }
+
+    .vocab-listen-btn {
+      background: var(--mint-100);
+      border: 1px solid var(--mint-200);
+      color: var(--mint-800);
+      padding: 6px 14px;
+      border-radius: 30px;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      transition: background 0.2s;
+    }
+
+    .vocab-listen-btn:hover {
+      background: var(--mint-200);
+    }
+
+    .vocab-jump-btn {
+      background: transparent;
+      border: none;
+      color: var(--mint-700);
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      text-decoration: underline;
+    }
+
+    /* ========================================================
+       SECTION 4: MINI QUIZ
+       ======================================================== */
+    .quiz-box {
+      background: #ffffff;
+      border-radius: var(--radius-lg);
+      padding: 28px 22px;
+      box-shadow: var(--shadow-md);
+      border: 1px solid var(--mint-200);
+      max-width: 620px;
+      margin: 0 auto;
+    }
+
+    .quiz-header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .quiz-header h2 {
+      font-size: 23px;
+      color: var(--mint-900);
+      margin-bottom: 6px;
+    }
+
+    .quiz-question-card {
+      background: #f0fdf4;
+      border: 1.5px solid var(--mint-300);
+      border-radius: var(--radius-md);
+      padding: 20px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .quiz-question-word {
+      font-size: 32px;
+      font-weight: 800;
+      color: var(--mint-900);
+      margin-bottom: 4px;
+    }
+
+    /* Phóng to IPA trong câu hỏi trắc nghiệm thêm 20%: 16px -> 20px */
+    .quiz-question-ipa {
+      font-size: 20px;
+      color: var(--mint-700);
+      margin-bottom: 12px;
+      font-weight: 600;
+      font-family: "Lucida Sans Unicode", "Segoe UI", Arial, sans-serif;
+    }
+
+    .quiz-options {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    /* Phóng to đáp án trắc nghiệm nghĩa tiếng Việt: 16px -> 18px */
+    .quiz-opt-btn {
+      background: #ffffff;
+      border: 1px solid var(--mint-300);
+      border-radius: var(--radius-sm);
+      padding: 14px 18px;
+      font-size: 18px;
+      color: var(--text-main);
+      font-weight: 600;
+      cursor: pointer;
+      text-align: left;
+      transition: all 0.2s;
+      line-height: 1.4;
+    }
+
+    .quiz-opt-btn:hover {
+      background: var(--mint-50);
+      border-color: var(--mint-500);
+    }
+
+    .quiz-opt-btn.correct {
+      background: #dcfce7 !important;
+      border-color: #22c55e !important;
+      color: #15803d !important;
+      font-weight: 700;
+    }
+
+    .quiz-opt-btn.wrong {
+      background: #fee2e2 !important;
+      border-color: #ef4444 !important;
+      color: #b91c1c !important;
+    }
+
+    .quiz-feedback {
+      margin-top: 14px;
+      padding: 12px 14px;
+      border-radius: var(--radius-sm);
+      font-size: 16px;
+      font-weight: 700;
+      display: none;
+      text-align: center;
+    }
+
+    .quiz-score-view {
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    .score-circle {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #16a34a 0%, #0d9488 100%);
+      color: #fff;
+      font-size: 32px;
+      font-weight: 800;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 16px;
+      box-shadow: var(--shadow-md);
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      margin-top: 36px;
+      font-size: 14px;
+      color: var(--text-muted);
+      border-top: 1px solid rgba(22, 163, 74, 0.15);
+      padding-top: 16px;
+    }
+
+    /* Responsive adjustments */
+    @media (max-width: 600px) {
+      .card-scene {
+        height: 460px;
+      }
+      .card-face {
+        padding: 20px 16px;
+      }
+      .word-text {
+        font-size: 32px;
+      }
+      .word-ipa {
+        font-size: 20px;
+      }
+      .meaning-text {
+        font-size: 19px;
+      }
+      .chat-bubble-row {
+        max-width: 96%;
+      }
+      .list-grid {
+        grid-template-columns: 1fr;
+      }
+      .tab-btn {
+        padding: 8px 14px;
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="app-container">
+    <!-- Header -->
+    <header>
+      <div class="badge-class">
+        <span>🥑</span> Lớp Học Google Antigravity • Giảng Viên: Phạm Huyền
+      </div>
+      <h1>10 Từ Vựng Tiếng Anh Cho Phái Đẹp</h1>
+      <p class="subtitle">Truyền cảm hứng • Tự tin làm chủ cuộc sống & công việc với AI</p>
+    </header>
+
+    <!-- Speed & Voice Settings -->
+    <div class="speed-control-bar">
+      <span>🎙️ <strong>Tốc độ đọc giọng mẫu:</strong></span>
+      <div class="speed-pills">
+        <button class="speed-pill" onclick="setSpeed(0.65, this)">0.65x (Rất chậm cho người mới)</button>
+        <button class="speed-pill active" onclick="setSpeed(0.85, this)">0.85x (Chuẩn dễ nghe)</button>
+        <button class="speed-pill" onclick="setSpeed(1.0, this)">1.0x (Tự nhiên)</button>
+      </div>
+    </div>
+
+    <!-- Navigation Tabs -->
+    <nav class="tab-bar">
+      <button class="tab-btn active" onclick="switchTab('flashcard', this)">
+        <span>🎴</span> Thẻ Flashcard 3D
+      </button>
+      <button class="tab-btn" onclick="switchTab('dialogue', this)">
+        <span>💬</span> Hội Thoại
+      </button>
+      <button class="tab-btn" onclick="switchTab('list', this)">
+        <span>📋</span> Bảng 10 Từ
+      </button>
+      <button class="tab-btn" onclick="switchTab('quiz', this)">
+        <span>🎯</span> Trắc Nghiệm Ôn Tập
+      </button>
+    </nav>
+
+    <!-- ========================================================
+         TAB 1: 3D FLASHCARD
+         ======================================================== -->
+    <div id="tab-flashcard" class="tab-content active">
+      <div class="flashcard-section">
+        <!-- Progress Bar -->
+        <div class="progress-box">
+          <div class="progress-meta">
+            <span id="card-counter">Thẻ 1 / 10</span>
+            <span id="card-percent">10% Hoàn thành</span>
+          </div>
+          <div class="progress-bar-bg">
+            <div id="progress-bar" class="progress-bar-fill"></div>
+          </div>
+        </div>
+
+        <!-- 3D Card Scene -->
+        <div class="card-scene" onclick="toggleCardFlip()">
+          <div id="card-element" class="card-3d">
+            <!-- Mặt trước (Front) -->
+            <div class="card-face card-front">
+              <span id="front-type" class="card-type-tag">Tính từ (adj)</span>
+              
+              <div class="card-word-group">
+                <div id="front-word" class="word-text">Radiant</div>
+                <div id="front-ipa" class="word-ipa">/ˈreɪ.di.ənt/</div>
+                <br>
+                <button type="button" class="audio-btn-large" onclick="event.stopPropagation(); playCurrentWord();">
+                  <span>🔊</span> Nghe phát âm
+                </button>
+              </div>
+
+              <div class="flip-hint">
+                <span>👆</span> Chạm vào thẻ để lật xem nghĩa & câu ví dụ
+              </div>
+            </div>
+
+            <!-- Mặt sau (Back) -->
+            <div class="card-face card-back">
+              <div class="back-header">
+                <span id="back-title" class="back-word-title">Radiant</span>
+                <span id="back-ipa" class="card-type-tag">/ˈreɪ.di.ənt/</span>
+              </div>
+
+              <div class="meaning-box">
+                <div class="meaning-label">Ý nghĩa tiếng Việt</div>
+                <div id="back-meaning" class="meaning-text">Rạng rỡ, tỏa sáng, tràn đầy năng lượng tươi vui</div>
+              </div>
+
+              <div class="example-box">
+                <div class="example-top">
+                  <span class="example-label">Câu ví dụ thực tế</span>
+                  <button type="button" class="listen-example-btn" onclick="event.stopPropagation(); playCurrentExample();">
+                    <span>🔊</span> Nghe câu
+                  </button>
+                </div>
+                <div id="back-example-en" class="example-en">She looks radiant with her warm and gentle smile.</div>
+                <div id="back-example-ipa" class="example-ipa">/ʃiː lʊks ˈreɪdiənt wɪð hɜː wɔːm ænd ˈdʒɛntl smaɪl/</div>
+                <div id="back-example-vi" class="example-vi">Cô ấy trông thật rạng rỡ với nụ cười ấm áp và dịu dàng.</div>
+              </div>
+
+              <div class="flip-hint" style="margin-top: auto;">
+                <span>👆</span> Chạm vào thẻ để quay lại mặt trước
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls underneath -->
+        <div class="card-controls">
+          <button id="prev-btn" class="nav-btn" onclick="prevCard()" disabled>
+            <span>⬅</span> Từ trước
+          </button>
+          <button class="flip-btn-main" onclick="toggleCardFlip()">
+            <span>🔄</span> Lật thẻ
+          </button>
+          <button id="next-btn" class="nav-btn" onclick="nextCard()">
+            Từ tiếp <span>➡</span>
+          </button>
+        </div>
+
+        <!-- Mini 1-10 Jump Dots -->
+        <div class="dots-row" id="dots-container"></div>
+      </div>
+    </div>
+
+    <!-- ========================================================
+         TAB 2: CONVERSATION (CHAT BUBBLE)
+         ======================================================== -->
+    <div id="tab-dialogue" class="tab-content">
+      <div class="dialogue-wrapper">
+        <div class="dialogue-intro">
+          <div class="dialogue-title-group">
+            <h2>Cuộc Trò Chuyện Truyền Cảm Hứng</h2>
+            <p>Bí quyết cân bằng công việc & làm chủ cuộc sống cùng AI</p>
+          </div>
+          <button id="play-all-dialogue-btn" class="play-all-btn" onclick="togglePlayFullDialogue()">
+            <span>▶</span> Nghe toàn bộ hội thoại
+          </button>
+        </div>
+
+        <div class="chat-container" id="chat-list">
+          <!-- Chat 1: Lan -->
+          <div class="chat-bubble-row lan" id="dialogue-0">
+            <div class="avatar lan">👩</div>
+            <div class="bubble-wrapper">
+              <span class="sender-name">Lan (Học viên)</span>
+              <div class="chat-bubble">
+                <div class="bubble-en">"Hi teacher Huyen! You look so <span class="highlight-word">radiant</span> and full of energy today!"</div>
+                <div class="bubble-ipa">/haɪ ˈtiːtʃə Huyen! juː lʊk səʊ ˈreɪdiənt ænd fʊl əv ˈɛnədʒi təˈdeɪ!/</div>
+                <div class="bubble-vi">Em chào cô Huyền! Hôm nay trông cô thật rạng rỡ và tràn đầy năng lượng ạ!</div>
+                <div class="bubble-action">
+                  <button class="mini-speaker-btn" onclick="speakText('Hi teacher Huyen! You look so radiant and full of energy today!')">
+                    <span>🔊</span> Nghe câu này
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Chat 2: Cô Huyền -->
+          <div class="chat-bubble-row huyen" id="dialogue-1">
+            <div class="avatar huyen">👩‍💼</div>
+            <div class="bubble-wrapper">
+              <span class="sender-name">Chị Huyền (Giảng viên)</span>
+              <div class="chat-bubble">
+                <div class="bubble-en">"Thank you, Lan! I start my morning with <span class="highlight-word">gratitude</span> and a quiet cup of tea to find <span class="highlight-word">serenity</span>."</div>
+                <div class="bubble-ipa">/θæŋk juː, Lan! aɪ stɑːt maɪ ˈmɔːnɪŋ wɪð ˈɡrætɪtjuːd ænd ə ˈkwaɪət kʌp əv tiː tuː faɪnd səˈrɛnəti./</div>
+                <div class="bubble-vi">Cảm ơn Lan nhé! Cô luôn bắt đầu buổi sáng bằng lòng biết ơn và một tách trà yên tĩnh để tìm thấy sự bình yên.</div>
+                <div class="bubble-action">
+                  <button class="mini-speaker-btn" onclick="speakText('Thank you, Lan! I start my morning with gratitude and a quiet cup of tea to find serenity.')">
+                    <span>🔊</span> Nghe câu này
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Chat 3: Lan -->
+          <div class="chat-bubble-row lan" id="dialogue-2">
+            <div class="avatar lan">👩</div>
+            <div class="bubble-wrapper">
+              <span class="sender-name">Lan (Học viên)</span>
+              <div class="chat-bubble">
+                <div class="bubble-en">"That is lovely! But how do you keep a good <span class="highlight-word">balance</span> between work and family?"</div>
+                <div class="bubble-ipa">/ðæt ɪz ˈlʌvli! bʌt haʊ duː juː kiːp ə ɡʊd ˈbæləns bɪˈtwiːn wɜːk ænd ˈfæmɪli?/</div>
+                <div class="bubble-vi">Tuyệt quá ạ! Nhưng làm sao cô có thể giữ được sự cân bằng tốt giữa công việc và gia đình vậy cô?</div>
+                <div class="bubble-action">
+                  <button class="mini-speaker-btn" onclick="speakText('That is lovely! But how do you keep a good balance between work and family?')">
+                    <span>🔊</span> Nghe câu này
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Chat 4: Cô Huyền -->
+          <div class="chat-bubble-row huyen" id="dialogue-3">
+            <div class="avatar huyen">👩‍💼</div>
+            <div class="bubble-wrapper">
+              <span class="sender-name">Chị Huyền (Giảng viên)</span>
+              <div class="chat-bubble">
+                <div class="bubble-en">"I use AI tools to boost my <span class="highlight-word">productivity</span>. When work is smooth, I stay <span class="highlight-word">mindful</span> and enjoy every moment with my kids."</div>
+                <div class="bubble-ipa">/aɪ juːz eɪ-aɪ tuːlz tuː buːst maɪ ˌprɒdʌkˈtɪvəti. wɛn wɜːk ɪz smuːð, aɪ steɪ ˈmaɪndfʊl ænd ɪnˈdʒɔɪ ˈɛvri ˈməʊmənt wɪð maɪ kɪdz./</div>
+                <div class="bubble-vi">Cô sử dụng các công cụ AI để nâng cao năng suất làm việc. Khi công việc trôi chảy, cô có thể sống tỉnh thức và tận hưởng từng khoảnh khắc bên các con.</div>
+                <div class="bubble-action">
+                  <button class="mini-speaker-btn" onclick="speakText('I use AI tools to boost my productivity. When work is smooth, I stay mindful and enjoy every moment with my kids.')">
+                    <span>🔊</span> Nghe câu này
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Chat 5: Lan -->
+          <div class="chat-bubble-row lan" id="dialogue-4">
+            <div class="avatar lan">👩</div>
+            <div class="bubble-wrapper">
+              <span class="sender-name">Lan (Học viên)</span>
+              <div class="chat-bubble">
+                <div class="bubble-en">"Sometimes I feel overwhelmed, but your lesson really helped <span class="highlight-word">empower</span> my <span class="highlight-word">confidence</span>."</div>
+                <div class="bubble-ipa">/ˈsʌmtaɪmz aɪ fiːl ˌəʊvəˈwɛlmd, bʌt jɔː ˈlɛsn ˈrɪəli hɛlpt ɪmˈpaʊə maɪ ˈkɒnfɪdəns./</div>
+                <div class="bubble-vi">Đôi lúc em thấy bị quá tải, nhưng bài giảng của cô thực sự đã tiếp thêm sức mạnh cho sự tự tin của em.</div>
+                <div class="bubble-action">
+                  <button class="mini-speaker-btn" onclick="speakText('Sometimes I feel overwhelmed, but your lesson really helped empower my confidence.')">
+                    <span>🔊</span> Nghe câu này
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Chat 6: Cô Huyền -->
+          <div class="chat-bubble-row huyen" id="dialogue-5">
+            <div class="avatar huyen">👩‍💼</div>
+            <div class="bubble-wrapper">
+              <span class="sender-name">Chị Huyền (Giảng viên)</span>
+              <div class="chat-bubble">
+                <div class="bubble-en">"Always remember: You are strong and <span class="highlight-word">resilient</span>. You will <span class="highlight-word">inspire</span> many other women too!"</div>
+                <div class="bubble-ipa">/ˈɔːlweɪz rɪˈmɛmbə: juː ɑː strɒŋ ænd rɪˈzɪljənt. juː wɪl ɪnˈspaɪə ˈmɛni ˈʌðə ˈwɪmɪn tuː!/</div>
+                <div class="bubble-vi">Hãy luôn nhớ rằng: Em rất mạnh mẽ và kiên cường. Em cũng sẽ truyền cảm hứng cho rất nhiều chị em phụ nữ khác đấy!</div>
+                <div class="bubble-action">
+                  <button class="mini-speaker-btn" onclick="speakText('Always remember: You are strong and resilient. You will inspire many other women too!')">
+                    <span>🔊</span> Nghe câu này
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========================================================
+         TAB 3: VOCABULARY LIST
+         ======================================================== -->
+    <div id="tab-list" class="tab-content">
+      <div class="list-wrapper">
+        <div style="margin-bottom: 20px;">
+          <h2 style="color: var(--mint-900); font-size: 22px;">Bảng Tra Cứu Toàn Bộ 10 Từ Vựng</h2>
+          <p style="color: var(--text-muted); font-size: 14px;">Bấm vào nút loa để nghe nhanh cách phát âm từng từ</p>
+        </div>
+        <div class="list-grid" id="full-vocab-grid"></div>
+      </div>
+    </div>
+
+    <!-- ========================================================
+         TAB 4: MINI QUIZ
+         ======================================================== -->
+    <div id="tab-quiz" class="tab-content">
+      <div class="quiz-box">
+        <div class="quiz-header">
+          <h2>🎯 Trắc Nghiệm Ôn Tập Vui</h2>
+          <p style="color: var(--text-muted); font-size: 14px;">Chọn đáp án đúng nhất theo nghĩa của từ</p>
+        </div>
+
+        <div id="quiz-body">
+          <div class="quiz-question-card">
+            <span style="font-size: 12px; font-weight: 700; color: var(--mint-700);" id="quiz-question-num">CÂU HỎI 1 / 5</span>
+            <div class="quiz-question-word" id="quiz-word">Radiant</div>
+            <div class="quiz-question-ipa" id="quiz-ipa">/ˈreɪ.di.ənt/</div>
+            <button class="mini-speaker-btn" style="margin: 0 auto 6px;" onclick="speakText(document.getElementById('quiz-word').innerText)">
+              <span>🔊</span> Nghe phát âm
+            </button>
+          </div>
+
+          <div class="quiz-options" id="quiz-options-container"></div>
+          <div class="quiz-feedback" id="quiz-feedback"></div>
+
+          <div style="text-align: center; margin-top: 18px;">
+            <button id="quiz-next-btn" class="nav-btn" style="max-width: 200px; margin: 0 auto; display: none;" onclick="nextQuizQuestion()">
+              Câu tiếp theo ➡
+            </button>
+          </div>
+        </div>
+
+        <div id="quiz-result" class="quiz-score-view" style="display: none;">
+          <div class="score-circle" id="score-text">5/5</div>
+          <h3 style="font-size: 22px; color: var(--mint-900); margin-bottom: 8px;" id="result-title">Tuyệt vời xuất sắc! 🥑</h3>
+          <p style="color: var(--text-muted); font-size: 15px; margin-bottom: 20px;" id="result-desc">Bạn đã ghi nhớ rất tốt 10 từ vựng tiếng Anh truyền cảm hứng.</p>
+          <button class="flip-btn-main" style="margin: 0 auto;" onclick="restartQuiz()">
+            <span>🔄</span> Làm lại bài trắc nghiệm
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+      🌿 Tài liệu học tập tương tác • Lớp học Google Antigravity • Giảng viên: <strong>Phạm Huyền</strong>
+    </footer>
+  </div>
+
+  <script>
+    // ==========================================
+    // DATA SOURCE: 10 VOCABULARY WORDS
+    // ==========================================
+    const VOCABULARY = [
+      {
+        word: "Radiant",
+        type: "Tính từ (adj)",
+        ipa: "/ˈreɪ.di.ənt/",
+        meaning: "Rạng rỡ, tỏa sáng, tràn đầy năng lượng tươi vui",
+        exampleEn: "She looks radiant with her warm and gentle smile.",
+        exampleIpa: "/ʃiː lʊks ˈreɪdiənt wɪð hɜː wɔːm ænd ˈdʒɛntl smaɪl/",
+        exampleVi: "Cô ấy trông thật rạng rỡ với nụ cười ấm áp và dịu dàng."
+      },
+      {
+        word: "Resilient",
+        type: "Tính từ (adj)",
+        ipa: "/rɪˈzɪl.jənt/",
+        meaning: "Kiên cường, bền bỉ, mau chóng phục hồi sau khó khăn",
+        exampleEn: "Modern women stay resilient despite any daily challenge.",
+        exampleIpa: "/ˈmɒdən ˈwɪmɪn steɪ rɪˈzɪljənt dɪˈspaɪt ˈɛni ˈdeɪli ˈtʃælɪndʒ/",
+        exampleVi: "Phụ nữ hiện đại luôn kiên cường trước mọi thử thách mỗi ngày."
+      },
+      {
+        word: "Serenity",
+        type: "Danh từ (n)",
+        ipa: "/səˈren.ə.ti/",
+        meaning: "Sự thanh thản, bình yên trong tâm hồn",
+        exampleEn: "A quiet morning cup of tea brings me true serenity.",
+        exampleIpa: "/ə ˈkwaɪət ˈmɔːnɪŋ kʌp əv tiː brɪŋz miː truː səˈrɛnəti/",
+        exampleVi: "Một tách trà buổi sáng yên tĩnh mang lại cho tôi sự bình yên đích thực."
+      },
+      {
+        word: "Mindful",
+        type: "Tính từ (adj)",
+        ipa: "/ˈmaɪnd.fəl/",
+        meaning: "Chánh niệm, tỉnh thức, biết chú tâm vào hiện tại",
+        exampleEn: "Be mindful of your feelings and enjoy the present moment.",
+        exampleIpa: "/biː ˈmaɪndfʊl əv jɔː ˈfiːlɪŋz ænd ɪnˈdʒɔɪ ðə ˈprɛznt ˈməʊmənt/",
+        exampleVi: "Hãy tỉnh thức với cảm xúc của mình và tận hưởng khoảnh khắc hiện tại."
+      },
+      {
+        word: "Empower",
+        type: "Động từ (v)",
+        ipa: "/ɪmˈpaʊ.ər/",
+        meaning: "Trao quyền, tiếp thêm sức mạnh và sự tự chủ",
+        exampleEn: "Learning new technology helps empower women to succeed.",
+        exampleIpa: "/ˈlɜːnɪŋ njuː tɛkˈnɒlədʒi hɛlps ɪmˈpaʊə ˈwɪmɪn tuː səkˈsiːd/",
+        exampleVi: "Học công nghệ mới giúp tiếp thêm sức mạnh cho phụ nữ chạm tới thành công."
+      },
+      {
+        word: "Inspire",
+        type: "Động từ (v)",
+        ipa: "/ɪnˈspaɪər/",
+        meaning: "Truyền cảm hứng, đánh thức đam mê và khát vọng",
+        exampleEn: "Her passion and kindness always inspire everyone around her.",
+        exampleIpa: "/hɜː ˈpæʃn ænd ˈkaɪndnəs ˈɔːlweɪz ɪnˈspaɪər ˈɛvrɪwʌn əˈraʊnd hɜː/",
+        exampleVi: "Niềm đam mê và lòng tốt của cô ấy luôn truyền cảm hứng cho mọi người xung quanh."
+      },
+      {
+        word: "Balance",
+        type: "Danh từ, Động từ (n, v)",
+        ipa: "/ˈbæl.əns/",
+        meaning: "Sự cân bằng; giữ cân bằng công việc và cuộc sống",
+        exampleEn: "It is important to keep a healthy balance in life.",
+        exampleIpa: "/ɪt ɪz ɪmˈpɔːtnt tuː kiːp ə ˈhɛlθi ˈbæləns ɪn laɪf/",
+        exampleVi: "Giữ một sự cân bằng lành mạnh trong cuộc sống là điều rất quan trọng."
+      },
+      {
+        word: "Confidence",
+        type: "Danh từ (n)",
+        ipa: "/ˈkɒn.fɪ.dəns/",
+        meaning: "Sự tự tin, niềm tin vững chắc vào bản thân",
+        exampleEn: "Practice and self-love will boost your inner confidence.",
+        exampleIpa: "/ˈpræktɪs ænd ˈsɛlf lʌv wɪl buːst jɔːr ˈɪnə ˈkɒnfɪdəns/",
+        exampleVi: "Sự rèn luyện và yêu thương bản thân sẽ nâng cao niềm tự tin bên trong bạn."
+      },
+      {
+        word: "Productivity",
+        type: "Danh từ (n)",
+        ipa: "/ˌprɒd.ʌkˈtɪv.ə.ti/",
+        meaning: "Năng suất, hiệu suất làm việc hiệu quả",
+        exampleEn: "Smart AI tools can increase your daily productivity.",
+        exampleIpa: "/smɑːt eɪ-aɪ tuːlz kæn ˈɪnkriːs jɔː ˈdeɪli ˌprɒdʌkˈtɪvəti/",
+        exampleVi: "Các công cụ AI thông minh có thể gia tăng năng suất làm việc mỗi ngày của bạn."
+      },
+      {
+        word: "Gratitude",
+        type: "Danh từ (n)",
+        ipa: "/ˈɡræt.ɪ.tjuːd/",
+        meaning: "Lòng biết ơn, sự trân trọng những điều tốt đẹp",
+        exampleEn: "Starting each day with gratitude fills your heart with joy.",
+        exampleIpa: "/ˈstɑːtɪŋ iːtʃ deɪ wɪð ˈɡrætɪtjuːd fɪlz jɔː hɑːt wɪð dʒɔɪ/",
+        exampleVi: "Bắt đầu mỗi ngày với lòng biết ơn sẽ lấp đầy trái tim bạn bằng niềm vui."
+      }
+    ];
+
+    // ==========================================
+    // AUDIO (WEB SPEECH API)
+    // ==========================================
+    let currentSpeechRate = 0.85;
+
+    function setSpeed(rate, btn) {
+      currentSpeechRate = rate;
+      document.querySelectorAll('.speed-pill').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    }
+
+    function speakText(text, callback) {
+      if (!('speechSynthesis' in window)) {
+        alert('Trình duyệt của bạn không hỗ trợ tính năng phát âm Web Speech API.');
+        return;
+      }
+
+      window.speechSynthesis.cancel();
+
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = 'en-US';
+      utterance.rate = currentSpeechRate;
+
+      const voices = window.speechSynthesis.getVoices();
+      const preferredVoice = voices.find(v => 
+        (v.lang.startsWith('en-US') || v.lang.startsWith('en-GB')) && 
+        (v.name.includes('Female') || v.name.includes('Samantha') || v.name.includes('Zira') || v.name.includes('Natural'))
+      ) || voices.find(v => v.lang.startsWith('en'));
+
+      if (preferredVoice) {
+        utterance.voice = preferredVoice;
+      }
+
+      if (callback) {
+        utterance.onend = callback;
+        utterance.onerror = callback;
+      }
+
+      window.speechSynthesis.speak(utterance);
+    }
+
+    if ('speechSynthesis' in window) {
+      window.speechSynthesis.onvoiceschanged = () => {
+        window.speechSynthesis.getVoices();
+      };
+    }
+
+    // ==========================================
+    // 3D FLASHCARD LOGIC
+    // ==========================================
+    let currentIndex = 0;
+    const cardEl = document.getElementById('card-element');
+
+    function toggleCardFlip() {
+      cardEl.classList.toggle('is-flipped');
+    }
+
+    function updateCardView() {
+      cardEl.classList.remove('is-flipped');
+
+      const item = VOCABULARY[currentIndex];
+
+      // Front
+      document.getElementById('front-type').innerText = item.type;
+      document.getElementById('front-word').innerText = item.word;
+      document.getElementById('front-ipa').innerText = item.ipa;
+
+      // Back
+      document.getElementById('back-title').innerText = item.word;
+      document.getElementById('back-ipa').innerText = item.ipa;
+      document.getElementById('back-meaning').innerText = item.meaning;
+      document.getElementById('back-example-en').innerText = item.exampleEn;
+      document.getElementById('back-example-ipa').innerText = item.exampleIpa;
+      document.getElementById('back-example-vi').innerText = item.exampleVi;
+
+      // Progress & Buttons
+      const count = currentIndex + 1;
+      const total = VOCABULARY.length;
+      document.getElementById('card-counter').innerText = `Thẻ ${count} / ${total}`;
+      const percent = Math.round((count / total) * 100);
+      document.getElementById('card-percent').innerText = `${percent}% Hoàn thành`;
+      document.getElementById('progress-bar').style.width = `${percent}%`;
+
+      document.getElementById('prev-btn').disabled = currentIndex === 0;
+      document.getElementById('next-btn').disabled = currentIndex === total - 1;
+
+      // Dots
+      document.querySelectorAll('.dot').forEach((dot, idx) => {
+        dot.classList.toggle('active', idx === currentIndex);
+      });
+    }
+
+    function prevCard() {
+      if (currentIndex > 0) {
+        currentIndex--;
+        updateCardView();
+      }
+    }
+
+    function nextCard() {
+      if (currentIndex < VOCABULARY.length - 1) {
+        currentIndex++;
+        updateCardView();
+      }
+    }
+
+    function jumpToCard(index) {
+      currentIndex = index;
+      updateCardView();
+      switchTab('flashcard', document.querySelector('.tab-btn'));
+    }
+
+    function playCurrentWord() {
+      speakText(VOCABULARY[currentIndex].word);
+    }
+
+    function playCurrentExample() {
+      speakText(VOCABULARY[currentIndex].exampleEn);
+    }
+
+    function initDots() {
+      const container = document.getElementById('dots-container');
+      container.innerHTML = '';
+      VOCABULARY.forEach((_, idx) => {
+        const dot = document.createElement('button');
+        dot.className = `dot ${idx === 0 ? 'active' : ''}`;
+        dot.innerText = idx + 1;
+        dot.title = VOCABULARY[idx].word;
+        dot.onclick = () => jumpToCard(idx);
+        container.appendChild(dot);
+      });
+    }
+
+    window.addEventListener('keydown', (e) => {
+      const activeTab = document.querySelector('.tab-content.active');
+      if (activeTab && activeTab.id === 'tab-flashcard') {
+        if (e.key === 'ArrowLeft') prevCard();
+        if (e.key === 'ArrowRight') nextCard();
+        if (e.key === ' ') {
+          e.preventDefault();
+          toggleCardFlip();
+        }
+      }
+    });
+
+    // ==========================================
+    // TAB SWITCHING
+    // ==========================================
+    function switchTab(tabName, btn) {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+
+      if (btn) btn.classList.add('active');
+      document.getElementById(`tab-${tabName}`).classList.add('active');
+
+      if (window.speechSynthesis) window.speechSynthesis.cancel();
+      isDialoguePlaying = false;
+      const playAllBtn = document.getElementById('play-all-dialogue-btn');
+      if (playAllBtn) playAllBtn.innerHTML = '<span>▶</span> Nghe toàn bộ hội thoại';
+    }
+
+    // ==========================================
+    // DIALOGUE AUTO-PLAY SEQUENTIAL
+    // ==========================================
+    const dialogueLines = [
+      "Hi teacher Huyen! You look so radiant and full of energy today!",
+      "Thank you, Lan! I start my morning with gratitude and a quiet cup of tea to find serenity.",
+      "That is lovely! But how do you keep a good balance between work and family?",
+      "I use AI tools to boost my productivity. When work is smooth, I stay mindful and enjoy every moment with my kids.",
+      "Sometimes I feel overwhelmed, but your lesson really helped empower my confidence.",
+      "Always remember: You are strong and resilient. You will inspire many other women too!"
+    ];
+
+    let isDialoguePlaying = false;
+    let dialogueIndex = 0;
+
+    function togglePlayFullDialogue() {
+      const playAllBtn = document.getElementById('play-all-dialogue-btn');
+      if (isDialoguePlaying) {
+        window.speechSynthesis.cancel();
+        isDialoguePlaying = false;
+        playAllBtn.innerHTML = '<span>▶</span> Tiếp tục nghe';
+        clearDialogueHighlights();
+      } else {
+        isDialoguePlaying = true;
+        playAllBtn.innerHTML = '<span>⏸</span> Dừng đọc';
+        playDialogueLine(dialogueIndex);
+      }
+    }
+
+    function clearDialogueHighlights() {
+      document.querySelectorAll('.chat-bubble-row').forEach(row => {
+        row.classList.remove('active-speaking');
+      });
+    }
+
+    function playDialogueLine(index) {
+      if (!isDialoguePlaying) return;
+
+      if (index >= dialogueLines.length) {
+        isDialoguePlaying = false;
+        dialogueIndex = 0;
+        clearDialogueHighlights();
+        document.getElementById('play-all-dialogue-btn').innerHTML = '<span>▶</span> Nghe lại hội thoại';
+        return;
+      }
+
+      dialogueIndex = index;
+      clearDialogueHighlights();
+
+      const currentRow = document.getElementById(`dialogue-${index}`);
+      if (currentRow) {
+        currentRow.classList.add('active-speaking');
+        currentRow.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+
+      speakText(dialogueLines[index], () => {
+        if (isDialoguePlaying) {
+          setTimeout(() => {
+            playDialogueLine(index + 1);
+          }, 600);
+        }
+      });
+    }
+
+    // ==========================================
+    // FULL VOCABULARY GRID
+    // ==========================================
+    function initVocabGrid() {
+      const grid = document.getElementById('full-vocab-grid');
+      grid.innerHTML = '';
+      VOCABULARY.forEach((item, idx) => {
+        const card = document.createElement('div');
+        card.className = 'vocab-card';
+        card.innerHTML = `
+          <div>
+            <div class="vocab-card-header">
+              <span class="vocab-main-word">${item.word} <span class="vocab-part-speech">(${item.type.split(' ')[0]})</span></span>
+              <span class="vocab-num">${idx + 1}</span>
+            </div>
+            <div class="vocab-ipa-tag">${item.ipa}</div>
+            <div class="vocab-meaning">${item.meaning}</div>
+            <div style="font-size: 14px; color: var(--text-muted); font-style: italic; margin-bottom: 4px;">"${item.exampleEn}"</div>
+          </div>
+          <div class="vocab-card-footer">
+            <button class="vocab-listen-btn" onclick="speakText('${item.word}')">
+              <span>🔊</span> Phát âm
+            </button>
+            <button class="vocab-jump-btn" onclick="jumpToCard(${idx})">
+              Học với thẻ 3D ➡
+            </button>
+          </div>
+        `;
+        grid.appendChild(card);
+      });
+    }
+
+    // ==========================================
+    // MINI QUIZ LOGIC
+    // ==========================================
+    let quizQuestions = [];
+    let currentQuizIndex = 0;
+    let quizScore = 0;
+
+    function buildQuiz() {
+      const shuffled = [...VOCABULARY].sort(() => 0.5 - Math.random());
+      quizQuestions = shuffled.slice(0, 5).map(target => {
+        const wrongAnswers = VOCABULARY
+          .filter(v => v.word !== target.word)
+          .sort(() => 0.5 - Math.random())
+          .slice(0, 2)
+          .map(v => v.meaning);
+
+        const options = [target.meaning, ...wrongAnswers].sort(() => 0.5 - Math.random());
+        return {
+          word: target.word,
+          ipa: target.ipa,
+          correctMeaning: target.meaning,
+          options: options
+        };
+      });
+
+      currentQuizIndex = 0;
+      quizScore = 0;
+    }
+
+    function renderQuizQuestion() {
+      const q = quizQuestions[currentQuizIndex];
+      document.getElementById('quiz-question-num').innerText = `CÂU HỎI ${currentQuizIndex + 1} / ${quizQuestions.length}`;
+      document.getElementById('quiz-word').innerText = q.word;
+      document.getElementById('quiz-ipa').innerText = q.ipa;
+
+      const optsContainer = document.getElementById('quiz-options-container');
+      optsContainer.innerHTML = '';
+      const feedback = document.getElementById('quiz-feedback');
+      feedback.style.display = 'none';
+      document.getElementById('quiz-next-btn').style.display = 'none';
+
+      q.options.forEach(opt => {
+        const btn = document.createElement('button');
+        btn.className = 'quiz-opt-btn';
+        btn.innerText = opt;
+        btn.onclick = () => selectQuizAnswer(opt, btn, q.correctMeaning);
+        optsContainer.appendChild(btn);
+      });
+    }
+
+    function selectQuizAnswer(chosen, btn, correct) {
+      const allBtns = document.querySelectorAll('.quiz-opt-btn');
+      allBtns.forEach(b => b.disabled = true);
+
+      const feedback = document.getElementById('quiz-feedback');
+      feedback.style.display = 'block';
+
+      if (chosen === correct) {
+        btn.classList.add('correct');
+        quizScore++;
+        feedback.innerText = '🎉 Chính xác! Bạn đã chọn câu trả lời đúng.';
+        feedback.style.background = '#dcfce7';
+        feedback.style.color = '#15803d';
+      } else {
+        btn.classList.add('wrong');
+        feedback.innerText = `Chưa đúng rồi! Nghĩa chính xác là: "${correct}"`;
+        feedback.style.background = '#fee2e2';
+        feedback.style.color = '#b91c1c';
+
+        allBtns.forEach(b => {
+          if (b.innerText === correct) b.classList.add('correct');
+        });
+      }
+
+      const nextBtn = document.getElementById('quiz-next-btn');
+      nextBtn.style.display = 'block';
+      if (currentQuizIndex === quizQuestions.length - 1) {
+        nextBtn.innerText = 'Xem kết quả 🏆';
+      } else {
+        nextBtn.innerText = 'Câu tiếp theo ➡';
+      }
+    }
+
+    function nextQuizQuestion() {
+      currentQuizIndex++;
+      if (currentQuizIndex < quizQuestions.length) {
+        renderQuizQuestion();
+      } else {
+        document.getElementById('quiz-body').style.display = 'none';
+        const resultView = document.getElementById('quiz-result');
+        resultView.style.display = 'block';
+        document.getElementById('score-text').innerText = `${quizScore}/${quizQuestions.length}`;
+
+        if (quizScore === 5) {
+          document.getElementById('result-title').innerText = 'Tuyệt vời xuất sắc! 🥑';
+          document.getElementById('result-desc').innerText = 'Bạn đã đạt điểm số tối đa và ghi nhớ trọn vẹn cả 10 từ vựng!';
+        } else if (quizScore >= 3) {
+          document.getElementById('result-title').innerText = 'Rất tốt! 🌿';
+          document.getElementById('result-desc').innerText = 'Bạn đã nắm được hầu hết các từ vựng cốt lõi. Hãy luyện thêm với Thẻ 3D nhé!';
+        } else {
+          document.getElementById('result-title').innerText = 'Cố gắng lên nhé! 🥑';
+          document.getElementById('result-desc').innerText = 'Hãy lật thẻ Flashcard 3D vài lần nữa để ghi nhớ sâu hơn nhé!';
+        }
+      }
+    }
+
+    function restartQuiz() {
+      document.getElementById('quiz-result').style.display = 'none';
+      document.getElementById('quiz-body').style.display = 'block';
+      buildQuiz();
+      renderQuizQuestion();
+    }
+
+    // ==========================================
+    // INITIALIZATION
+    // ==========================================
+    window.addEventListener('DOMContentLoaded', () => {
+      initDots();
+      updateCardView();
+      initVocabGrid();
+      buildQuiz();
+      renderQuizQuestion();
+    });
+  </script>
+</body>
+</html>
